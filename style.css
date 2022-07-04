@@ -1,0 +1,42 @@
+body {
+    font-family: 'M PLUS 2', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.hire-me {
+    display: flex;
+    padding: 3%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 25px;
+    color: white;
+}
