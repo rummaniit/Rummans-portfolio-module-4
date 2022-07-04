@@ -19,11 +19,12 @@ h1 {
     color: orange;
 }
 
-.hire-me {
+.hire-me,
+.dream-big,
+.experience {
     display: flex;
-    padding: 3%;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    padding: 2%;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -31,7 +32,22 @@ h1 {
 }
 
 .half-width img {
-    width: 80%;
+    width: 75%;
+}
+
+
+#fullstack {
+    margin-left: 30px;
+    padding: 2%;
+    border-left: 5px solid orangered;
+    box-shadow: 10px 10px 50px orange;
+}
+
+#babystack {
+    margin-left: 30px;
+    padding: 2%;
+    border-left: 5px solid blue;
+    box-shadow: 10px 10px 50px blue;
 }
 
 a {
